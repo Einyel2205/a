@@ -12,6 +12,9 @@
 }
 #tituloHeader{
     margin: 5px 0 0 150px;
+} 
+#tituloHeader img{
+    width: 220px;
 }
 #navInicio ul{
     display: flex;
@@ -36,6 +39,8 @@
     height: auto;
 }
 #contWeb{
+    font-size: 20px;
+    color: #cbcccd;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,8 +49,37 @@
 }
 #tituloHeader2{
     color: white;
-    font-size: 50px;
+    font-size: 57px;
+    margin-bottom: 15px;
 }
+#contWeb p{
+    margin-bottom: 15px;
+    width: 75%;
+}
+#parrClaro{
+    color: #9a9b9c;
+}
+#btnHeader{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#btnHeader button{
+    width: 250px;
+    height: 45px;
+    border-radius: 35px;
+    border: none;
+    background-color: #3c92d0;
+    color: #fefefe;
+    margin: 10px 0 0 80px ;
+}
+
+
+
+
+
 
 
 
