@@ -284,7 +284,7 @@
     color: #8d8d8dbf;
 }
 #terciarioDerecha div{
-    margin-top: 18px;
+    margin-top: -15px;
 }
 #terciarioDerecha a{
     color: #529ed5;
@@ -305,4 +305,13 @@ footer p{
     color: #949494;
     margin-right: 500px;
     font-size: 12px;
+}
+@media screen and (min-width:768px) and (max-width:1280px){
+    
+    #tituloHeader2{
+        font-size: 50px;
+    }
+    .terciario{
+        display: none;
+    }
 }
