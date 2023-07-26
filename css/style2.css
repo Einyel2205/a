@@ -306,12 +306,49 @@ footer p{
     margin-right: 500px;
     font-size: 12px;
 }
-@media screen and (min-width:768px) and (max-width:1280px){
-    
-    #tituloHeader2{
-        font-size: 50px;
+@media screen and (min-width:481px) and (max-width:767px){
+    .inicio{
+        display: flex;
+        flex-direction: column;
     }
-    .terciario{
-        display: none;
+    #tituloHeader img{
+        width: 130px;
+        margin-right: 120px;
+        display: flex;
+        align-items: center;
+    }
+    #navInicio{
+        text-align: center;
+    }
+    #navInicio ul{
+        margin: 0 30px;
+    }
+    #navInicio ul li a{
+        margin: 0 20px;
+    }
+    #secInicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #imgTelefono img{
+        margin: 30px 0 30px 0;
+        width: 200px;
+        height: auto;
+    }
+    #contWeb{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tituloHeader2{
+        font-size: 45px;
+    }
+    #contWeb p{
+        width: 60%;
     }
 }
