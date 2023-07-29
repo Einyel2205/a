@@ -29,6 +29,12 @@
     list-style: none;
     text-decoration: none;
 }
+#navInicio ul li a:hover {
+    background-color: #323a41;
+    transition: background-color 0.4s ease, color 0.3s ease;
+    border-radius: 30%;
+    padding: 10px;
+}
 #secInicio{
     background-color: #4d5c67;
     display: flex;
@@ -515,5 +521,241 @@ footer p{
     }
     #btnHeader a span{
         font-size: 14px;
+    }
+    #imagesSec img{
+        width: 150px;
+        height: 130px;
+    }
+    #tituloTerIz{
+        margin: 15px 0 20px 162px;
+        font-size: 15px;
+    }
+    #terciarioIzquierda a{
+        color: #529ed5;
+        text-decoration: none;
+        margin-left: 37%;
+        font-size: 12px;
+    }
+    #terciarioInt{
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #terciarioInt h3{
+        font-size: 10px;
+        margin-left: 29%;
+    }
+    #terciarioInt p{
+        font-size: 10px;
+        width: 50%;
+        margin-left: 29%;
+    }
+    #terciarioInt p a{
+        font-size: 10px;
+    }
+    #terciarioInt span{
+        font-size: 9px;
+        margin-left: 29%;
+    }
+    #company img{
+        width: 123px;
+    }
+    #steveJobs img{
+        width: 123px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid #ebebeb;
+        height: 80px;
+        width: 80%;
+        margin-left: 100px;
+    }
+    footer p{
+        color: #949494;
+        margin-right: 50px;
+        font-size: 10px;
+    }
+    #imagesFooter img{
+        width: 20px;
+    }
+}
+@media screen and (min-width:352px) and (max-width:480px){
+    .inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    #tituloHeader img{
+        width:100px;
+        margin-right: 140px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #navInicio{
+        text-align: center;
+        font-size: 15px;
+    }
+    #navInicio ul{
+        margin: 0 30px;
+    }
+    #navInicio ul li a{
+        margin: 0 20px;
+    }
+    .navIcons nav ul li a img{
+        width: 40px;
+        height: auto;
+    }
+    #secInicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #imgTelefono img{
+        margin: 30px 0 30px 0;
+        width: 200px;
+        height: auto;
+    }
+    #contWeb{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tituloHeader2{
+        font-size: 25px;
+    }
+    #contWeb p{
+        width: 65%;    
+        font-size: 11px;
+    }
+    #btnHeader{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: solid #ececec;
+    }
+    #btnHeader button{
+        width: 90%;
+        height: 35px;
+    }
+    #btnHeader a{
+        margin-left: 20px;
+        text-align: center;
+        border-bottom: none;
+    }
+    #btnHeader a img{
+        height: 13px;
+        margin-right: -5px;
+    }
+    #btnHeader a span{
+        font-size: 14px;
+    }
+    .central{
+        display: flex;
+        flex-direction: column;
+    }
+    #centralInt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    #imageCentral img{
+        width: 100px;
+        height: 100px;
+    }
+    #centralInt p{
+        margin: 5px 0 20px 0;
+        width: 70%;
+    }
+    #secInt{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #imagesSec img{
+        width: 180px;
+        height: 150px;
+    }
+    #tituloSecun{
+        margin-left: 30px;
+    }
+    #tituloTerIz{
+        margin: 15px 0 20px 50px;
+        font-size: 15px;
+    }
+    #terciarioIzquierda a{
+        color: #529ed5;
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+    #terciarioInt{
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #terciarioInt h3{
+        font-size: 10px;
+    }
+    #terciarioInt p{
+        font-size: 10px;
+    }
+    #terciarioInt p a{
+        font-size: 10px;
+    }
+    #terciarioInt span{
+        font-size: 9px;
+    }
+    #company img{
+        width: 123px;
+    }
+    #steveJobs img{
+        width: 123px;
+    }
+    #tituloTerDer{
+        font-size: 13px;
+        margin: 15px 0 20px 35px;
+    }
+    #tituloTerDer img{
+        width: 20px;
+    }
+    #terciarioInt2{
+        margin-right: 50px;
+    }
+    #terciarioInt2 p{
+        font-size: 10px;
+    }
+    #terciarioInt2 p a{
+        font-size: 10px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 2px solid #ebebeb;
+        height: 80px;
+        width: 70%;
+        margin-left: 70px;
+    }
+    footer p{
+        color: #949494;
+        margin-right: 50px;
+        font-size: 8px;
+    }
+    #imagesFooter img{
+        width: 15px;
     }
 }
